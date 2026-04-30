@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    
+
+}
+main{
+   
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+aside{
+    background-color: rgb(12, 12, 12);
+    height:100% ;
+    
+}
+section{
+    justify-content: space-between;
+    display: flex;
+    height: 70%;
+}
+a{
+    color:wheat;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(10, 172, 56);
+    transform: translateX(-9px);
+    padding: 2px;;
+    border-radius: 6px;
+    
+}
+footer{
+    background-color: black;
+    color: wheat;
+    padding: 5%;
+    display: block;
+    justify-content: space-around;
+    display: flex;
+
+}
+fieldset{
+    height: 40%;
+    width: 20%;
+    border: hidden;
+}
+.myimg{
+width:100%;
+height: 100%;
+position: relative;
+
+
+}
+.text{
+margin-top: 0%;
+
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.myimg {
+  width: 100%;
+  display: block;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  z-index: 2;
+}
+button{
+    background-color: blue;
+    padding-top: 2%;
+    border-radius: 8px;
+    border: hidden;
+
+}
+button:hover{
+    background-color: rgb(1, 180, 1);
+    transform: translateX(5px);
+}
+.fil{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.fab{
+    height: 20%;
+}
+.dat{
+    width: 50%;
+    height: 5%;
+    border: hidden;
+}
+fieldset:hover{
+    background-color: rgba(0, 0, 0,0.5);
+}
+.btn:hover{
+    background-color: rgb(3, 121, 34);
+
+}
+.btn{
+    background-color: yellow;
+}
+
+
